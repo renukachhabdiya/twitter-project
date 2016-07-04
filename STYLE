@@ -1,0 +1,84 @@
+/* CSS Document */
+#navigation {
+	border:solid 1px #190707;
+	background-color:white;
+	float:left;
+	width:inherit;
+	padding:5px;
+}
+
+.navitem {
+	padding-left:15px;
+	padding-right:15px;
+	float:left;
+	border-left:solid 1px #333333;
+}
+
+.navitem a {
+	text-decoration:none;
+	color:#3B0B17;
+	font-size:19px;
+	letter-spacing:2px;
+	text-shadow: 0 0 0.05em rgba(0,0,0,1);
+}
+
+.navitem a:hover {
+	color:#09F;
+}
+
+#loginform {
+	width:400px;
+	margin:60px;
+	padding:30px;
+	border-radius:5px;
+	box-shadow: 0 0 0.2em rgba(102,102,102,1);
+}
+
+#homepage, #contactpage {
+	margin:60px;
+}
+
+.hide {
+	display:none;
+}
+
+.errmsg {
+	color:#F00;
+}
+
+.recordtable {
+	border:#FFFFFF solid 1px;
+	border-collapse:collapse;
+	margin:5px;
+}
+
+.commonth {
+	color:#5858FA;
+	background-color:#FAFAFA;
+	border-bottom:white solid 1px;
+}
+
+.recordtable tr {
+	font-size:16px;
+}
+
+.recordtable a {
+	margin:5px;
+	text-decoration:none;
+	color:#900;
+	font-weight:bold;
+	padding:5px;
+}
+
+.recordtable a:hover {
+	padding:px;
+	color:#FFF;
+	font-weight:bold;
+	-moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+	box-shadow: 0 0 .7em rgba(0, 0, 0, .8);
+	border-radius:5px;
+	background-color:rgba(0, 0, 0, .8);
+}
+
+
